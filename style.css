@@ -195,7 +195,7 @@ body {
   }
 
   .hero-image-container {
-    margin-top: 20px;
+    margin-top: 50px;
   }
 }
 
@@ -345,7 +345,7 @@ body {
   .about-image {
     height: 300px;
     width: 300px;
-    margin-top: 1rem;
+    margin-top: 3rem;
   }
 
   .about p {
