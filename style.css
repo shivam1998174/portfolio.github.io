@@ -4,7 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html{
+  overflow-x: hidden;
+}
 body {
   font-family: 'Arial', sans-serif;
   background-color: #000;
@@ -353,8 +355,11 @@ body {
   }
   .skills-container{
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 25px;
     margin-top: 2rem;
+  }
+  .skills-box {
+    padding: 10px;
   }
 }
 
@@ -533,6 +538,7 @@ body {
   color: yellow;
 }
 .footer {
+  width: 100%;
   margin-top: 10px;
   padding: 10px;
   background: #1e1e1e;
