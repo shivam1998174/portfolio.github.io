@@ -436,14 +436,25 @@ body {
   cursor: pointer;
   top: 0;
 }
+.project-box a{
+  list-style: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
 .project-details{
-  padding: 10px 15px;
+  padding: 10px 10px;
   bottom: 0;
   position: absolute;
   left: 0;
 }
 .project-details h2{
-  font-size: x-large;
+  font-size: 1em;
+  padding-bottom: 25px;
+}
+.project-details h2 a{
+  list-style: none;
+  text-decoration: none;
   color: #ffffff;
 }
 .project-details p{
